@@ -1,0 +1,56 @@
+<mxfile host="app.diagrams.net" modified="2025-12-08T00:00:00.000Z" agent="Grok" version="25.6.3">
+  <diagram name="Stakeholder Power-Interest Grid" id="grid">
+    <mxGraphModel dx="1420" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell value="" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#cccccc;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="640" height="480" as="geometry"/>
+        </mxCell>
+        <mxCell value="Low Interest → High Interest" style="text;html=1;align=center;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="640" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell value="High Power" style="text;html=1;align=right;fontSize=14;fontStyle=1;rotation=-90" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="30" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell value="Low Power" style="text;html=1;align=right;fontSize=14;fontStyle=1;rotation=-90" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="30" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell value="" style="line;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="400" y="80"/><mxPoint x="400" y="560"/></mxGeometry>
+        </mxCell>
+        <mxCell value="" style="line;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="80" y="320"/><mxPoint x="720" y="320"/></mxGeometry>
+        </mxCell>
+        <mxCell value="&lt;b&gt;Manage Closely&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#155724;backgroundColor=#d4edda;" vertex="1" parent="1">
+          <mxGeometry x="410" y="90" width="300" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell value="&lt;b&gt;Keep Satisfied&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#856404;backgroundColor=#fff3cd;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="300" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell value="&lt;b&gt;Keep Informed&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#721c24;backgroundColor=#f8d7da;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="300" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell value="&lt;b&gt;Minimal Effort&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#0c5460;backgroundColor=#d1ecf1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="300" height="220" as="geometry"/>
+        </mxCell>
+        <!-- Stakeholders -->
+        <mxCell value="Elena Voss&lt;br&gt;&lt;i&gt;Sustainability Director&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=#1e7e34;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="550" y="130" width="120" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell value="Sophia Patel&lt;br&gt;&lt;i&gt;CIO&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#28a745;strokeColor=#1e7e34;fontColor=white;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="120" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell value="Marcus Lind&lt;br&gt;&lt;i&gt;Cloud Ops Manager&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#e0a800;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="130" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell value="Raj Mehta&lt;br&gt;&lt;i&gt;Finance Controller&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fd7e14;strokeColor=#e96b02;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="130" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell value="Compliance Team" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffc107;strokeColor=#e0a800;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="120" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

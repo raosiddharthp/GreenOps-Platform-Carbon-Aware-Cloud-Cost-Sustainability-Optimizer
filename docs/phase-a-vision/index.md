@@ -1,5 +1,4 @@
 # Phase A – Architecture Vision
-# Phase A – Architecture Vision
 
 **GreenOps Platform**  
 AI-powered carbon-aware cloud cost & sustainability optimizer for Google Cloud Platform  

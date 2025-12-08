@@ -1,0 +1,35 @@
+site_name: GreenOps Platform – TOGAF 10 Enterprise Architecture
+site_description: Full TOGAF ADM for EU CSRD-compliant carbon-aware cloud optimisation on GCP
+site_author: Your Name – Certified TOGAF 10 Enterprise Architect
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: green
+      accent: lime
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  icon:
+    logo: material/leaf-circle
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Phase A – Architecture Vision: phase-a-vision/
+  - Phase B – Business Architecture: phase-b-business/
+  - Phase C – Information Systems Architecture: phase-c-information-systems/
+  - Phase D – Technology Architecture: phase-d-technology/
+  - Phase E – Opportunities & Solutions: phase-e-opportunities-solutions/
+  - Phase F – Migration Planning: phase-f-migration-plan/
+extra:
+  generator: false
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html

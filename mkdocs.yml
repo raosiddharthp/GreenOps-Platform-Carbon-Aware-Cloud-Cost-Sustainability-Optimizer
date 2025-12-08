@@ -1,35 +1,63 @@
-site_name: GreenOps Platform – TOGAF 10 Enterprise Architecture
-site_description: Full TOGAF ADM for EU CSRD-compliant carbon-aware cloud optimisation on GCP
-site_author: Your Name – Certified TOGAF 10 Enterprise Architect
+site_name: GreenOps Platform - Carbon-Aware Cloud Cost Optimizer
+site_description: Showcasing 10 Skills via the GreenOps Architecture Framework
 theme:
   name: material
-  palette:
-    - scheme: slate
-      primary: green
-      accent: lime
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate
-    - search.suggest
-    - search.highlight
-  icon:
-    logo: material/leaf-circle
-plugins:
-  - search
+    - navigation.indexes
+
 nav:
-  - Home: index.md
-  - Phase A – Architecture Vision: phase-a-vision/
-  - Phase B – Business Architecture: phase-b-business/
-  - Phase C – Information Systems Architecture: phase-c-information-systems/
-  - Phase D – Technology Architecture: phase-d-technology/
-  - Phase E – Opportunities & Solutions: phase-e-opportunities-solutions/
-  - Phase F – Migration Planning: phase-f-migration-plan/
-extra:
-  generator: false
-markdown_extensions:
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - attr_list
-  - md_in_html
+  # --- Project Overview ---
+  - Home: 'index.md'
+  - Skills Showcase:
+      - 'Project Overview': 'metrics-dashboard/index.md'
+      - 'Business Impact & Metrics': 'metrics-dashboard/kpi-framework.md'
+
+  # --- SKILL 1: SAFE SPC (Agile Roadmap for GreenOps Adoption) ---
+  - 1. SAFE & Agile (SPC):
+      - 'GreenOps Adoption Roadmap': 'metrics-dashboard/safe-implementation.md'
+      - 'Implementation Governance': 'phase-f-migration-plan/01-implementation-governance.md'
+      - 'SAFE Handover Package': 'phase-f-migration-plan/02-safe-handover-package.md'
+
+  # --- SKILL 2: TOGAF Enterprise Architecture (Sustainability Architecture Framework) ---
+  - 2. TOGAF Enterprise Architecture:
+      - 'Architecture Vision (Phase A)': 'phase-a-vision/index.md'
+      - 'Business Architecture (Phase B)': 'phase-b-business/index.md'
+      - 'Application & Data (Phase C)': 'phase-c-information-systems/index.md'
+      - 'Technology Architecture (Phase D)': 'phase-d-technology/index.md'
+      - 'Migration Planning (Phase E/F)': 'phase-e-opportunities-solutions/index.md'
+
+  # --- SKILL 3: GCP Cloud Architecture (Carbon-Optimized GCP Design) ---
+  - 3. GCP Cloud Architecture:
+      - 'Carbon-Optimized Design': 'phase-d-technology/02-gcp-landing-zone.md'
+      - 'Technology Reference Model (TRM)': 'phase-d-technology/01-technology-reference-model.md'
+      - 'Carbon-Aware Architecture Diagram': 'diagrams/carbon-aware-architecture.drawio'
+
+  # --- SKILL 4: Open Source LLM Engg (LLM for ESG Report Narration) ---
+  - 4. Open Source LLM Engineering:
+      - 'LLM Report Generation': 'add/llm-report-narration.md'
+      - 'Code/Scripts': 'add/llm-code-scripts.md'
+
+  # --- SKILL 5: GCP MLE (Vertex AI Models for Carbon Footprint Prediction) ---
+  - 5. GCP Machine Learning:
+      - 'Carbon Footprint Prediction Model': 'add/mle-carbon-prediction.md'
+
+  # --- SKILL 6: Open Source AI Agent (LangChain Agent for Workload Shifting) ---
+  - 6. Open Source AI Agent:
+      - 'LangChain Workload Optimizer': 'add/ai-agent-workload-shifting.md'
+
+  # --- SKILL 7: GCP AI Agent (Agent Builder for Rightsizing Recommendations) ---
+  - 7. GCP AI Agent:
+      - 'Gemini Rightsizing Agent': 'add/gcp-ai-rightsizing.md'
+
+  # --- SKILL 8: Python Automation (Script Suite for Resource Management) ---
+  - 8. Python Automation:
+      - 'GCP Migration & Cost Scripts': 'add/python-scripts-migration-cost.md'
+
+  # --- SKILL 9: R Dashboard (Shiny Dashboard for Sustainability Metrics) ---
+  - 9. R Dashboard Development:
+      - 'Sustainability Metrics Dashboard': 'add/r-shiny-dashboard.md'
+
+  # --- SKILL 10: Technical Documentation (MkDocs with Interactive Guides) ---
+  - 10. Technical Documentation:
+      - 'API/User Documentation': 'add/api-user-documentation.md'

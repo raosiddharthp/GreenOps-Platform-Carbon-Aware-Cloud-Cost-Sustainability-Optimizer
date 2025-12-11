@@ -1,29 +1,26 @@
 # GreenOps Platform
 
-TOGAF 10 Enterprise Architecture for Carbon-Aware Cloud Cost & Sustainability Optimization on Google Cloud.
+## TOGAF 10 Enterprise Architecture for Carbon-Aware Cloud Cost & Sustainability Optimization on Google Cloud
 
-## Project Overview
-
-This platform provides a TOGAF-based Architectural Framework to optimize cloud costs (FinOps) and drive sustainability (GreenOps) principles, ensuring:
-* EU CSRD compliance
-* Automated cost optimization scripts
-* Workload shifting to carbon-efficient regions
-
-## Key Skills Demonstrated (The 10 Deliverables)
-
-Navigate the horizontal tabs above for the complete architectural views and technical deliverables related to each of the 10 core skills:
-
-| Deliverable Focus | Business Impact | Metric Achieved |
-| :--- | :--- | :--- |
-| **SAFe/TOGAF Roadmap** | Quicker sustainability initiatives | 25% quicker adoption |
-| **Carbon-Optimized GCP Design** | Cut cloud costs by 40% | 40% cost reduction |
-| **LLM ESG Report Narration** | Automated 80% of report writing | 80% automation |
-| **LangChain/GCP AI Agents** | Optimized 70% of workloads | 70% optimized |
-| **Python/R Dashboards** | Saved $5,000/month, Enhanced reporting | 55% compliance boost |
+EU CSRD-compliant · Carbon-aware scheduling · FinOps + GreenOps unified
 
 ---
 
-## Live Site:
-Visit the live site to explore the full architecture:
+<div class="md-typeset" style="text-align: center;">
+  <a href="https://[YOUR_APP_URL_HERE]" class="md-button md-button--primary" style="background-color: #4CAF50; border-color: #4CAF50; font-size: 1.2em; padding: 10px 30px; margin-top: 20px;">
+    🚀 LAUNCH GREENOPS PLATFORM
+  </a>
+</div>
 
-https://raosiddharthp.github.io/GreenOps-Platform-Carbon-Aware-Cloud-Cost-Sustainability-Optimizer/
+---
+
+This project showcases an Enterprise Architecture framework (based on TOGAF 10) for designing, implementing, and governing a cloud platform that prioritizes both **Cost Efficiency (FinOps)** and **Environmental Sustainability (GreenOps)**.
+
+Use the navigation panel on the left to explore the complete set of architectural artifacts, from business strategy and stakeholder requirements to detailed technology implementation.
+
+**Key Deliverables (Skills Demonstration):**
+* **Architecture Vision (Customer/Vision):** Defining the need for FinOps/GreenOps alignment.
+* **Business Architecture (Architecture/Business):** Defining capabilities and value streams for sustainability and cost reduction.
+* **Technology Architecture (Architecture/Technology):** Designing the Carbon-Optimized GCP Landing Zone.
+* **AI/ML Agents (Application/System Design):** Leveraging Vertex AI and open-source LLMs for carbon forecasting and workload shifting.
+

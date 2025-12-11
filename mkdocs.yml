@@ -1,3 +1,61 @@
+site_name: GreenOps Platform - Carbon-Aware Cloud Cost Optimizer
+site_description: TOGAF 10 Enterprise Architecture for FinOps/GreenOps Unification
+
+# --- THEME AND STYLING ---
+theme:
+  name: material
+  palette:
+    # Header (Primary) color: Dark Blue/Purple (Matches the first image you provided)
+    primary: deep purple
+    # Accent color for links/buttons: Light Blue/Green
+    accent: light blue
+  features:
+    # Disables horizontal tabs, forcing the desired collapsible sidebar structure
+    - navigation.sections
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+# --- NAVIGATION HIERARCHY ---
+nav:
+  # High-Visibility Link
+  - Home: 'index.md'
+  - '🚀 Launch Application': 'https://[YOUR_APP_URL_HERE]' # <-- ADD THIS LINK
+
+  # Customer Focus (TOGAF Phases A & B Context)
+  - Customer:
+      - Overview: 'customer/index.md'
+      - Vision (Problem/Scope): 'customer/vision.md'
+      - Requirements: 'customer/requirements.md'
+      - Personas: 'customer/personas.md'
+      - Journey Map: 'customer/journey-map.md'
+
+  # Architecture (TOGAF Phases B, C, D, E, F)
+  - Architecture:
+      - Overview: 'architecture/index.md'
+      - Business Architecture: 'architecture/business-architecture.md'
+      - Information Architecture: 'architecture/information-architecture.md'
+      - Technology Architecture: 'architecture/technology-architecture.md'
+      - Opportunities & Solutions: 'architecture/opportunities-solutions.md'
+      - Migration Planning: 'architecture/migration-planning.md'
+      - Implementation Governance: 'architecture/implementation-governance.md'
+      - Change Management: 'architecture/change-management.md'
+
+  # Remaining Deliverables / Systems
+  - Application:
+      - Overview: 'application/index.md'
+      - Data Flow: 'application/data-flow.md'
+      - System Design: 'application/system-design.md'
+  - Documentation: 'documentation/index.md'
+
+# --- MERMAID SUPPORT FOR DIAGRAMS ---
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 theme:
   name: material
   palette:
